@@ -1,5 +1,4 @@
 import pikepdf
-import sys
 
 userPrompt = input('''
 1-Try against a a file of words
@@ -32,7 +31,3 @@ elif userPrompt == "2":
     endPoint = input("till : ")
     for passwordItem in range (int(startPoint) ,( int(endPoint)+1)):
         pdfFileDecrypt( protectedFilePath , passwordItem)
-
-
-
-
